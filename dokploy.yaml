@@ -1,0 +1,16 @@
+name: sveltekit-app
+type: web
+
+build:
+  node_version: 18
+  commands:
+    - npm install
+    - npm run build
+
+run:
+  command: node build/index.js
+  port: 3000
+
+environment:
+  - PORT=3000
+  - NODE_ENV=production
