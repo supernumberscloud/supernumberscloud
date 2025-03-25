@@ -11,7 +11,7 @@
 
 <svelte:head>
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet" />
 </svelte:head>
 
@@ -41,7 +41,7 @@
 				<!-- Services Grid -->
 				<div class="grid grid-cols-1 gap-4 md:grid-cols-3">
 					<div class="bg-black p-4 text-center">
-						<h3 class="mb-1 text-lg font-medium">ERPNext</h3>
+						<h3 class="mb-1 text-lg font-medium">Use ERPNext</h3>
 						<p class="text-sm text-white opacity-80">
 							Deploy the Enterprise Resource Planning (ERP) application for your businesses.
 						</p>
